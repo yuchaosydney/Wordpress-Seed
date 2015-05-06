@@ -1,0 +1,47 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wordpress",
+        "type": "webroot",
+        "version": "4.2.1",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/WordPress/WordPress/archive/4.2.1.zip"
+        },
+        "require" : {
+          "fancyguy/webroot-installer": "*"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "wordpress": "4.2.1",
+    "fancyguy/webroot-installer": "*",
+    "vlucas/phpdotenv": "*",
+    "wpackagist-plugin/custom-post-type-ui": "*",
+    "wpackagist-plugin/timber-library": "*",
+    "wpackagist-plugin/shortcodes-ultimate": "*",
+    "wpackagist-plugin/advanced-custom-fields": "*",
+    "wpackagist-plugin/acf-field-date-time-picker": "*",
+    "wpackagist-plugin/categories-metabox-enhanced": "*",
+    "wpackagist-plugin/cms-tree-page-view": "*",
+    "wpackagist-plugin/tinymce-advanced": "*",
+    "wpackagist-plugin/enhanced-media-library": "*",
+    "wpackagist-plugin/codepress-admin-columns": "*",
+    "wpackagist-plugin/admin-menu-reorder": "*"
+  },
+  "extra": {
+    "installer-paths": {
+      "app/plugins/{$name}/": ["type:wordpress-plugin"]
+    },
+    "webroot-dir": "wp",
+    "webroot-package": "wordpress"
+  }
+}
