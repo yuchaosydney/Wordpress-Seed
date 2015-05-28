@@ -37,6 +37,9 @@
     "wpackagist-plugin/codepress-admin-columns": "*",
     "wpackagist-plugin/admin-menu-reorder": "*"
   },
+  "autoload": {
+    "classmap": []
+  },
   "extra": {
     "installer-paths": {
       "app/plugins/{$name}/": ["type:wordpress-plugin"]
