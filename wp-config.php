@@ -56,6 +56,9 @@ define('SECURE_AUTH_SALT', 'put your unique phrase here');
 define('LOGGED_IN_SALT',   'put your unique phrase here');
 define('NONCE_SALT',       'put your unique phrase here');
 
+/* define('WP_SITEURL','http://site.dev/wp'); */
+/* define('WP_HOME','http://site.dev/'); */
+
 /**#@-*/
 
 /**
