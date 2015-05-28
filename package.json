@@ -1,0 +1,29 @@
+{
+  "name": "SITE",
+  "version": "0.0.0",
+  "dependencies": {
+    "node-notifier": "*",
+    "bin-wrapper": "*",
+    "bufferstreams": "*",
+    "imagemin": "*",
+    "imagemin-jpegtran": "*",
+    "imagemin-pngquant": "*",
+    "readable-stream": "*"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-coffee": "*",
+    "gulp-concat": "*",
+    "gulp-html-replace": "*",
+    "gulp-imagemin": "*",
+    "gulp-jade": "*",
+    "gulp-minify-css": "*",
+    "gulp-notify": "*",
+    "gulp-plumber": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "main-bower-files": "*"
+  }
+}
