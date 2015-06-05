@@ -34,11 +34,13 @@
     "wpackagist-plugin/cms-tree-page-view": "*",
     "wpackagist-plugin/tinymce-advanced": "*",
     "wpackagist-plugin/enhanced-media-library": "*",
-    "wpackagist-plugin/codepress-admin-columns": "*",
-    "wpackagist-plugin/admin-menu-reorder": "*"
+    "wpackagist-plugin/admin-menu-reorder": "*",
+    "wpackagist-plugin/obfuscate-email": "*",
+    "wpackagist-plugin/pretty-debug": "*",
   },
   "autoload": {
-    "classmap": []
+    "classmap": [],
+    "files": []
   },
   "extra": {
     "installer-paths": {
