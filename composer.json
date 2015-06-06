@@ -28,19 +28,21 @@
     "wpackagist-plugin/custom-post-type-ui": "*",
     "wpackagist-plugin/timber-library": "*",
     "wpackagist-plugin/shortcodes-ultimate": "*",
-    "wpackagist-plugin/advanced-custom-fields": "*",
     "wpackagist-plugin/acf-field-date-time-picker": "*",
     "wpackagist-plugin/categories-metabox-enhanced": "*",
     "wpackagist-plugin/cms-tree-page-view": "*",
     "wpackagist-plugin/tinymce-advanced": "*",
     "wpackagist-plugin/enhanced-media-library": "*",
-    "wpackagist-plugin/admin-menu-reorder": "*",
-    "wpackagist-plugin/obfuscate-email": "*",
     "wpackagist-plugin/pretty-debug": "*",
+    "wpackagist-plugin/metronet-reorder-posts": "*",
+    "wpackagist-plugin/admin-menu-reorder": "*",
+    "wpackagist-plugin/obfuscate-email": "*"
   },
   "autoload": {
-    "classmap": [],
-    "files": []
+    "classmap": [
+      "app/themes/1300hl/models",
+      "app/themes/1300hl/helpers"
+    ]
   },
   "extra": {
     "installer-paths": {
