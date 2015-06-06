@@ -39,10 +39,7 @@
     "wpackagist-plugin/obfuscate-email": "*"
   },
   "autoload": {
-    "classmap": [
-      "app/themes/1300hl/models",
-      "app/themes/1300hl/helpers"
-    ]
+    "classmap": []
   },
   "extra": {
     "installer-paths": {
