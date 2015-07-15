@@ -57,14 +57,14 @@ function compileCoffee() {
 }
 
 function compileSass() {
-  return gulp.src('dev/styles/main.scss')
+  return gulp.src('dev/styles/**/*.scss')
              .pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
              .pipe(sass())
              .pipe(minify({keepSpecialComments: '1'}))
              .pipe(prefixer('last 2 version'))
-             .pipe(concat('style.css'))
-             .pipe(gulp.dest('./'));
+             .pipe(gulp.dest('css'));
 }
+
 
 function extractBowerFiles() {
   return gulp.src(mainBowerFiles())
